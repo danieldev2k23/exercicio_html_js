@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+background-color: rgb(89, 49, 199);
+}
+h2{
+    color: black;
+}
+.container{
+    margin: 80px auto;
+    max-width: 600px;
+    width: 100%;
+}
+form{
+    margin-top: 30%;
+
+}
+input, button{
+    display: block;
+    padding: 16px;
+    margin: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    resize: none;
+    
+}
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: roboto;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+.mensagen-verdade{
+    background-color: rgb(100, 211, 56);
+    color: white;
+}
+.mensagen-falso{
+    background-color: red;
+    color: rgb(231, 199, 139);
+    
+    
+}
+input.error{
+    color:  red;
+    border-color: red;
+    outline-color: red;
+}
